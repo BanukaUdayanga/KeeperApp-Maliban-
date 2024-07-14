@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(240, 239, 239);
+}
+
+.header {
+    font-family: "Roboto";
+    padding: 40px 80px;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.inputSection {
+    margin-top: 20px;
+}
+
+.mainInput {
+    width: 600px;
+    font-size: 16px;
+    padding: 8px;
+    border: solid gray 1px;
+    border-radius: 4px;
+}
+
+.addBtn {
+    background-color: blue;
+    color: white;
+    border: solid 1px blue;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 6px 12px;
+    margin-left: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    transition: all ease-in-out 0.3s;
+}
+.addBtn:hover {
+    opacity: 0.6;
+    padding: 6px 14px;
+}
+
+.workList {
+    padding: 20px 80px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.workCard {
+    background-color: white;
+    width: 380px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    margin: 10px 10px;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+
+/* ============  Card styling ============  */
+.card-text {
+    font-family: "Roboto";
+    margin-bottom: 20px;
+}
+.card-text p {
+    margin-bottom: 10px;
+}
+.workName {
+    font-size: 19px;
+    font-weight: 400;
+}
+.cardDate {
+    font-size: 12px;
+    display: inline-block;
+    background-color: rgb(240, 239, 239);
+    padding: 4px;
+    border-radius: 4px;
+}
+.editSection {
+    display: flex;
+    gap: 5px;
+}
+.card-button {
+    display: flex;
+    gap: 5px;
+}
+.card-button button {
+    margin-top: 8px;
+}
+.deleteBtn {
+    background-color: rgb(248, 108, 108);
+    color: white;
+    font-size: 12px;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.deleteBtn:hover {
+    background-color: red;
+}
+.editBtn {
+    background-color: rgb(141, 238, 162);
+    color: white;
+    font-size: 12px;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.editBtn:hover {
+    background-color: green;
+}
+.updateBtn {
+    background-color: rgb(240, 239, 239);
+    color: rgb(3, 77, 80);
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer; 
+}
+.updateBtn:hover {
+    color: blue;
+}
+
+.editInput {
+    background-color: rgb(240, 239, 239);
+    color: rgb(61, 58, 58);
+    border: none;
+    outline: none;
+    padding: 6px 8px;
+    border-radius: 6px;
+    margin-right: 8px;
+}
